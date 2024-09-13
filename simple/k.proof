@@ -1,0 +1,4 @@
+A => B => A
+intro x
+intro y
+exact x
