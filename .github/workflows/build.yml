@@ -1,0 +1,30 @@
+name: Build
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Install packages
+      run: sudo apt-get -y install ocaml ocaml-dune
+    - name: Build
+      run: make
+    - name: Test
+      run: make test
+  # report:
+    # runs-on: ubuntu-latest
+    # steps:
+    # - name: Checkout code
+      # uses: actions/checkout@v4
+    # - name: Install packages
+      # run: sudo apt install pandoc texlive-latex-recommended
+    # - name: Build report
+      # run: ls && make -C report
+    # - name: Export report
+      # uses: actions/upload-artifact@v4
+      # with:
+        # name: report
+        # path: report/report.pdf
+        # retention-days: 30
+        # compression-level: 9
