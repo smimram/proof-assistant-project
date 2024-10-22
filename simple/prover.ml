@@ -1,3 +1,5 @@
+let () = Printexc.record_backtrace true
+
 (** Type variables. *)
 type tvar = string
 

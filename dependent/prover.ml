@@ -1,3 +1,5 @@
+let () = Printexc.record_backtrace true
+
 (** Variables. *)
 type var = string
 
