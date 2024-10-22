@@ -1,6 +1,6 @@
 all:
-	dune build
+	dune exec ./prover.exe
 
-# Uncomment this once ready, you can add more tests here
+# You can add more tests here
 test:
-	#cat k.proof | dune exec ./prover.exe
+	cat k.proof | dune exec ./prover.exe
