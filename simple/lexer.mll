@@ -11,7 +11,9 @@ rule token = parse
   | "fun"    { FUN }
   | "λ"      { FUN }
   | "fst"    { FST }
+  | "π₁"     { FST }
   | "snd"    { SND }
+  | "π₂"     { SND }
   | "case"   { CASE }
   | "of"     { OF }
   | "left"   { LEFT }
