@@ -47,16 +47,16 @@ you have words in _italic_ or in **bold**.
 
 # Difficulties encountered
 
-Detail
+Detail. In particular, feel free to explain what could be improved in the subject for next year.
 
 # Implementation choices
 
-Detail
+Detail.
 
 # Possible extensions
 
-Imagine
+Imagine.
 
 # Conclusion
 
-Conclude
+Conclude.
