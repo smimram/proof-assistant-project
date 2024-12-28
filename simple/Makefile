@@ -1,6 +1,7 @@
 all:
 	dune exec ./prover.exe
 
-# You can add more tests here
+PROOFS = $(wildcard proofs/*.proof)
+
 test:
-	cat proofs/k.proof | dune exec ./prover.exe
+	$(foreach p, $(PROOFS), cat $(p) | dune exec ./prover.exe)
