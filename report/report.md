@@ -45,9 +45,21 @@ you have words in _italic_ or in **bold**.
 
 ...
 
+# Testing the project
+
+Explain how to build and test the projects, for instance:
+
+You can build the projects and run all the proofs by typing
+
+```make
+make test
+```
+
+in the `simple` and `dependent` directories.
+
 # Difficulties encountered
 
-Detail. In particular, feel free to explain what could be improved in the subject for next year.
+Detail. In particular, feel free to explain what could be improved in the subject for next years.
 
 # Implementation choices
 
