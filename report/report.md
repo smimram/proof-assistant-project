@@ -23,7 +23,7 @@ or simply
 make
 ```
 
-Erase the above and write an introduction.
+Erase the above and write an introduction. You can write your report in French if this is more convenient for you.
 
 # What was implemented in the project
 
